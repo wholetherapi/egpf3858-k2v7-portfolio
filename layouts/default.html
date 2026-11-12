@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} — Field Notes</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <nav><a href="/">Field Notes</a> · <a href="/archive/">Archive</a></nav>
+  <main>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.venue }} · {{ page.year }}</p>
+    <article>{{ content }}</article>
+    {% if page.code %}
+      <p class="code"><a href="{{ page.code }}">Code</a></p>
+    {% endif %}
+  </main>
+</body>
+</html>

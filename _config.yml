@@ -1,0 +1,12 @@
+title: Field Notes
+author: Christina Adams
+description: Research portfolio and field notes
+baseurl: https://fieldnotes.example
+markdown: kramdown
+collections:
+  papers:
+    output: true
+  projects:
+    output: true
+  talks:
+    output: true
